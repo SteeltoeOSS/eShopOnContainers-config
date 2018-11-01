@@ -17,7 +17,7 @@ UseCustomizationData: True
 UseLoadTest: ${USE_LOADTEST?False}
 management:
   endpoints:
-    path: /management
+    path: /cloudfoundryapplication
 mysql:
   client:
     server: sql.data
