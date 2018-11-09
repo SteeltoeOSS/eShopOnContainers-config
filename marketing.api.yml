@@ -2,8 +2,9 @@
 mysql:
   client:
     database: Microsoft.eShopOnContainers.Services.MarketingDb
-MongoConnectionString: ${ESHOP_AZURE_COSMOSDB?mongodb://nosql.data}
-MongoDatabase: MarketingDb
+mongodb:
+  client:
+    database: MarketingDb
 PicBaseUrl: ${ESHOP_AZURE_STORAGE_MARKETING_URL?http://localhost:5110/api/v1/campaigns/[0]/pic/}
 SubscriptionClientName: Marketing
 AzureStorageAccountName: ${ESHOP_AZURE_STORAGE_MARKETING_NAME}

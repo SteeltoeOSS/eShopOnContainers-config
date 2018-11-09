@@ -18,10 +18,12 @@ UseLoadTest: ${USE_LOADTEST?False}
 management:
   endpoints:
     path: /cloudfoundryapplication
+mongodb:
+  client:
+    server: nosql.data
 mysql:
   client:
     server: sql.data
-    port: 3306
     username: root
     password: Pass@word
 rabbitmq:

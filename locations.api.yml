@@ -1,4 +1,5 @@
 ---
-ConnectionString: ${ESHOP_AZURE_COSMOSDB?mongodb://nosql.data}
-Database: LocationsDb
+mongodb:
+  client:
+    database: LocationsDb
 SubscriptionClientName: Locations
