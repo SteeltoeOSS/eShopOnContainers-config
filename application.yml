@@ -49,7 +49,7 @@ Logging:
   IncludeScopes: false
   LogLevel:
     System: Critical
-    Microsoft: Critical
+    Microsoft: Information
   Debug:
     LogLevel:
       Default: Information
