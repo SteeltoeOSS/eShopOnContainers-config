@@ -1,15 +1,15 @@
 ---
 IdentityUrlExternal: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5105
-IdentityUrl: http://identity.api
+IdentityUrl: http://identityapi
 XamarinCallback: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5105/xamarincallback
-BasketUrl: http://basket.api
+BasketUrl: http://basketapi
 CallBackUrl: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5100
-CatalogUrl: http://catalog.api
-LocationsUrl: http://locations.api
-MarketingUrl: http://marketing.api
-OrderingUrl: http://ordering.api
-OrderingBackgroundTasksUrl: http://ordering.backgroundtasks
-PaymentUrl: http://payment.api
+CatalogUrl: http://catalogapi
+LocationsUrl: http://locationsapi
+MarketingUrl: http://marketingapi
+OrderingUrl: http://orderingapi
+OrderingBackgroundTasksUrl: http://orderingbackgroundtasks
+PaymentUrl: http://paymentapi
 spaUrl: http://webspa
 mvcUrl: http://webmvc
 SignalrHubUrl: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5202
