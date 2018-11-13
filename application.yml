@@ -59,6 +59,5 @@ Logging:
 eureka:
   client: 
     serviceUrl: http://eurekaserver:8761/eureka/
-    shouldFetchRegistry: false
   instance:
     port: 80
