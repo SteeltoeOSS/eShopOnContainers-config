@@ -61,3 +61,8 @@ eureka:
     serviceUrl: http://eurekaserver:8761/eureka/
   instance:
     port: 80
+spring:
+  cloud:
+    config:
+      retry:
+        enabled: true
