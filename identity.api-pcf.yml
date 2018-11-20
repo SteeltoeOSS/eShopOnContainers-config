@@ -1,9 +1,0 @@
----
-SpaClient: http://webspa
-MvcClient: http://webmvc
-LocationApiClient: http://locationsapi
-MarketingApiClient: http://marketingapi
-BasketApiClient: http://basketapi
-OrderingApiClient: http://orderingapi
-MobileShoppingAggClient: http://mobileshoppingagg
-WebShoppingAggClient: http://webshoppingagg
