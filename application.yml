@@ -52,7 +52,6 @@ Logging:
     Microsoft.eShopOnContainers: Information
     Microsoft.AspNetCore: Warning
     Microsoft.EntityFrameworkCore: Warning
-    Steeltoe.Discovery.Eureka: Trace
   Debug:
     LogLevel:
       Default: Information
