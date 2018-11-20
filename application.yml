@@ -50,6 +50,7 @@ Logging:
   LogLevel:
     System: Critical
     Microsoft: Information
+    Steeltoe.Discovery.Eureka: Trace
   Debug:
     LogLevel:
       Default: Information
