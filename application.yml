@@ -49,6 +49,7 @@ Logging:
   IncludeScopes: false
   LogLevel:
     System: Critical
+    Microsoft: Information
     Microsoft.eShopOnContainers: Information
     Microsoft.AspNetCore: Warning
     Microsoft.EntityFrameworkCore: Warning
