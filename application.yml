@@ -56,10 +56,10 @@ Logging:
   Debug:
     LogLevel:
       Default: Information
-    Console:
-      DisableColors: true
-      LogLevel:
-        Default: Information
+  Console:
+    DisableColors: true
+    LogLevel:
+      Default: Information
 eureka:
   client: 
     serviceUrl: http://eurekaserver:8761/eureka/
