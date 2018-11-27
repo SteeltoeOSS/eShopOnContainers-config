@@ -1,2 +1,6 @@
 ---
 IsClusterEnv: true
+eureka:
+  instance:
+    securePortEnabled: true
+    nonSecurePortEnabled: false
