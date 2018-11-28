@@ -2,5 +2,5 @@
 IsClusterEnv: true
 eureka:
   instance:
-    securePortEnabled: true
-    nonSecurePortEnabled: false
+    securePortEnabled: false
+    nonSecurePortEnabled: true
