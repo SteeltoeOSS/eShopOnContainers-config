@@ -1,5 +1,1 @@
 ---
-eureka:
-  instance:
-    securePortEnabled: true
-    nonSecurePortEnabled: false
