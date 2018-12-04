@@ -18,6 +18,8 @@ UseLoadTest: ${USE_LOADTEST?False}
 management:
   endpoints:
     path: /cloudfoundryapplication
+    cloudfoundry:
+      validateCertificates: false
 mongodb:
   client:
     server: nosql.data
