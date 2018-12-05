@@ -15,6 +15,7 @@ mvcUrl: http://webmvc
 SignalrHubUrl: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5202
 UseCustomizationData: True  
 UseLoadTest: ${USE_LOADTEST?False}
+validateCertificates: false
 management:
   endpoints:
     path: /cloudfoundryapplication
