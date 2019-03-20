@@ -1,17 +1,17 @@
 ---
 IdentityUrlExternal: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5105
-IdentityUrl: http://identityapi
+IdentityUrl: https://identityapi
 XamarinCallback: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5105/xamarincallback
-BasketUrl: http://basketapi
+BasketUrl: https://basketapi
 CallBackUrl: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5100
-CatalogUrl: http://catalogapi
-LocationsUrl: http://locationsapi
-MarketingUrl: http://marketingapi
-OrderingUrl: http://orderingapi
-OrderingBackgroundTasksUrl: http://orderingbackgroundtasks
-PaymentUrl: http://paymentapi
-spaUrl: http://webspa
-mvcUrl: http://webmvc
+CatalogUrl: https://catalogapi
+LocationsUrl: https://locationsapi
+MarketingUrl: https://marketingapi
+OrderingUrl: https://orderingapi
+OrderingBackgroundTasksUrl: https://orderingbackgroundtasks
+PaymentUrl: https://paymentapi
+spaUrl: https://webspa
+mvcUrl: https://webmvc
 SignalrHubUrl: http://${ESHOP_EXTERNAL_DNS_NAME_OR_IP}:5202
 UseCustomizationData: True  
 UseLoadTest: ${USE_LOADTEST?False}
@@ -65,7 +65,7 @@ Logging:
       Default: Information
 eureka:
   client: 
-    serviceUrl: http://eurekaserver:8761/eureka/
+    serviceUrl: https://eurekaserver:8761/eureka/
     validateCertificates: false
   instance:
     port: 80
